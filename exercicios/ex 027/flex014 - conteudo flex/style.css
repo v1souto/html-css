@@ -1,4 +1,4 @@
-@charset "UTF_8";
+@charset "UTF-8";
 
 * {
     margin: 0px;
@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-bady {
+body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     line-height: 1.5em;
@@ -29,10 +29,10 @@ header, section.normal {
 
 section.flex-content {
     padding: 20px;
-    background-color: rgb(157, 156, 156);
-
+    background-color: rgb(156, 156, 156);
+    
     display: flex;
-    flex-flow: colum nowrap;
+    flex-flow: column nowrap;
 }
 
 article.text-media {
@@ -52,13 +52,11 @@ article.media-text {
 article > div.text {
     flex: 1 1 500px;
 
-   
 }
 
 article > div.media {
     flex: 1 0 400px;
 
-    
 }
 
 div.media > img {
